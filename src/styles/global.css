@@ -1,0 +1,67 @@
+@import "./header.css";
+@import "./cta.css";
+@import "./estatisticas.css";
+@import "./grafico.css";
+@import "./parlamentar.css";
+@import "./aprendizado.css";
+@import "./footer.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 400;
+    background-color: #ffffff;
+}
+
+:root {
+
+/*========= CORES PRIMARIAS  =========*/
+
+    --primary: #FF5E00;
+    --secondary: #FFE5D6;
+    --tertiary: #9F2D00;
+
+/*========= CORES NEUTRAS =========*/
+
+    --white: #FFFFFF;
+    --gray: #F2F2F2;
+    --gray-dark: #9E9E9E;
+    --black: #000000;
+
+/*========= TEXTO CORES =========*/
+
+    --text-color-primary: #FF5E00;
+    --text-color-white: #FFFFFF;
+    --text-color-gray: #F2F2F2;
+    --text-color-gray-dark: #9E9E9E;
+    --text-color-black: #000000;
+
+
+/*========= ESTILOS DE TEXTO =========*/
+    
+/*========= ESTILOS DE SIZE =========*/
+
+    --fs-h1-bold: 32px;
+    --fs-h1: 32px;
+    --fs-h2: 24px;
+    --fs-h2-bold: 24px;
+    --fs-button: 20px;
+    --fs-link: 18px;
+    --fs-p: 18px;
+    --fs-p-small: 12px;
+
+/*========= PESOS DE FONTE (WEIGHT) =========*/
+
+    --fw-regular: 400;
+    --fw-semibold: 600;
+    --fw-bold: 700;
+}
