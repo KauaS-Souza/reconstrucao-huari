@@ -50,8 +50,8 @@ body {
     
 /*========= ESTILOS DE SIZE =========*/
 
-    --fs-h1-bold: 32px;
-    --fs-h1: 32px;
+    --fs-h1: 64px;
+    --fs-h1-bold: 64px;
     --fs-h2: 24px;
     --fs-h2-bold: 24px;
     --fs-button: 20px;
